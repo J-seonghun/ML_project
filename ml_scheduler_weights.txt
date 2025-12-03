@@ -1,0 +1,28 @@
+# Logistic Regression Weights (22 Features)
+# Trained on Rodinia benchmarks
+# Target: issued_inst_in_pipeline > 0
+# Accuracy: 1.0000
+
+age -0.030732
+warp_id_feat 0.018966
+cta_id 0.058036
+stream_id_hash 0.000000
+inst_in_pipeline 7.212781
+inst_in_buffer -3.300290
+stores_outstanding -1.249274
+completed_threads -0.005395
+active_thread_count 0.005395
+completion_ratio -0.172627
+inst_miss 0.000000
+membar_waiting 0.000000
+n_atomic 0.000000
+stores_done 1.249274
+done_exit 0.000000
+last_fetch_age 0.000000
+waiting_status -0.606392
+scoreboard_stall 1.171245
+pipeline_stall_ratio -38.121029
+age_squared -0.000230
+age_pipeline_interaction 0.038866
+ibuffer_empty -20.711563
+issued_inst_in_pipeline 0.000000
